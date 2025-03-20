@@ -4,6 +4,8 @@ body {
   text-align: center;
   padding-top: 150px;
   font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  overflow: hidden;
 }
 h1,p {
   opacity:0;
@@ -12,6 +14,7 @@ h1,p {
   margin-top:0;
   font-size:50px;
   letter-spacing:2px;
+  color:white
 }
 @keyframes fadeIn {
   from{
@@ -20,4 +23,60 @@ h1,p {
   to {
     opacity: 1;
   }
+}
+#meteorContainer {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.meteor{
+  position:absolute;
+  width:10px;
+  height:10px;
+  background-color: white;
+  opacity: 0;
+  animation:meteorFall 2s linear infinite,meteorFade 2s ease-in forwards, meteorColorChange 2s infinite;
+}
+@keyframes meteorFall{
+  0%{
+    opacity:0;
+    top:-10px;
+  }
+  50%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+    top:100vh;
+  }
+}
+@keyframes meteorFade{
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+@keyframes meteorColorChange{
+  0%{
+    background-color: white;
+  }
+  25%{
+    background-color: #ff0044;
+  }
+  50%{
+    background-color: #00ff44;
+  }
+  75%{
+    background-color: #0044ff;
+  }
+  100%{
+    background-color: white;
+    }
 }
