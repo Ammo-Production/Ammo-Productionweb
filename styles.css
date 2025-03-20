@@ -1,0 +1,13 @@
+/*style.css */
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh
+  margin:0;
+  text-align:center;
+  flex-direction:column
+}
+h1 {
+  text-align:center;
+  margin-top:20px;
