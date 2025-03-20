@@ -5,8 +5,19 @@ body {
   padding-top: 150px;
   font-family: 'Orbitron', sans-serif;
 }
-h1 {
+h1,p {
+  opacity:0;
+  animation:fadeIn 3s ease-in forwards;
   text-align:center;
   margin-top:0;
   font-size:50px;
+  letter-spacing:2px;
+}
+@keyframes fadeIn {
+  from{
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
 }
