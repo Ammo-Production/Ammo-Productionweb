@@ -10,5 +10,17 @@
   <body>
     <h1>The Future Awaits </h1>
     <p>Ammo Productions</p>
-  </body>
+ <div id="meteorContainer"></div>
+<script>
+  function createMeteor() {
+    const meteor = document.createElement('div');
+    meteor.classList.add('meteor');
+    document.getElementById('meteorContainer').appendChild(meteor);
+    setTimeout(() =>meteor.remove(), 2000);
+  }
+
+  setInterval(createMeteor,300);
+</script>
+    
+</body>  
 </html>
