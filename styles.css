@@ -33,10 +33,10 @@ h1,p {
 }
 .meteor{
   position:absolute;
-  width:10px;
-  height:10px;
+  width:15px;
+  height:15px;
   background-color: white;
-  opacity: 0;
+  opacity: 0.8;
   border-radius:50%
   animation:meteorFall 2s linear infinite,meteorFade 2s ease-in forwards, meteorColorChange 2s infinite;
 }
