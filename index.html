@@ -21,7 +21,24 @@
   }
 
   setInterval(createMeteor,300);
+  //STARS
+  function createStar() {
+    const star = document.createElement('div');
+    star.classList.add('star');
+
+    star.style.left=Math.random()*window.innerWidth + 'px';
+    star.style.top=Math. random()*window.innerHeight + 'px';
+
+    if(Math.random()<0.5) {
+      star.classList.add('twinkle');
+    }
+    document.getElementById('starContainer').appendChild(star);
+  }
+  for(let i=0; i<100; i++) {
+    createStar();
+  }
+  setInterval(createStar, 2000);
+   
 </script>
-    
-</body>  
+</body>
 </html>
