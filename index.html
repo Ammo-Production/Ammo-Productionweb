@@ -15,6 +15,7 @@
   function createMeteor() {
     const meteor = document.createElement('div');
     meteor.classList.add('meteor');
+    meteor.style.left=Math.random() * window.innerWidth + 'px';
     document.getElementById('meteorContainer').appendChild(meteor);
     setTimeout(() =>meteor.remove(), 2000);
   }
