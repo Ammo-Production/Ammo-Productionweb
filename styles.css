@@ -37,7 +37,7 @@ h1,p {
   height:15px;
   background-color: white;
   opacity: 0.8;
-  border-radius:50%
+  border-radius:50%;
   animation:meteorFall 2s linear infinite,meteorFade 2s ease-in forwards, meteorColorChange 2s infinite;
 }
 @keyframes meteorFall{
