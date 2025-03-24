@@ -103,3 +103,40 @@ h1,p {
     opacity:0.5;
   }
 }
+.cloud{
+  position:absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  opacity:0.8;
+  box-shadow:0 4px 6px rgba(0,0,0,0.2);
+  animation: moveClouds 10s infinite linear;
+}
+#cloud1{
+  width:150px;
+  height:80px;
+  top:10%;
+  left:-200px;
+  animation-duration:12s;
+}
+#cloud2{
+  width:180px;
+  height:100px;
+  top:20%;
+  left: -300px;
+  animation-duration:14s;
+}
+#cloud3{
+  width:130px;
+  height:70px;
+  top:30%;
+  left:-250px;
+  animation-duration:16s;
+}
+@keyframes moveClouds{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(100vw);
+  }
+}
