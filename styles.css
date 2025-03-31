@@ -132,20 +132,3 @@ h1,p {
   filter:drop-shadow(0px 0px 10px white);
   transition:opacity 3s ease-in-out, bottom 5s ease-in-out;
 }
- window.onload= function() {
-   setTimeout(() =>{
-   document.getElementById("cloud1").style.opacity="1";
- },500);
-setTimeout(() =>{
-   document.getElementById("cloud2").style.opacity="1";
-},1500);
-setTimeout(() =>{
-   document.getElementById("cloud3").style.opacity="1";
-},2500);
-
-setTimeout(() =>{
- const celestial= document.getElementById("celestial-being");
-  celestial.style.opacity="1";
-  celestial.style.bottom="20%";
-},4000);
-  };
