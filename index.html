@@ -58,6 +58,15 @@
     }
     document.getElementById('starContainer').appendChild(star);
   }
+  setInterval(() => {
+    createStar();
+
+    const stars = document.querySelectorAll('.star');
+    if(stars.length> 100) {
+      stars[0].remove();
+    }
+  },2000);
+  
   for(let i=0; i<100; i++) {
     createStar();
   }
