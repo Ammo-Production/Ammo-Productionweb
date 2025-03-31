@@ -30,6 +30,7 @@ h1,p {
   left:0;
   width:100%;
   height:100%;
+  z-index:0;
 }
 .meteor{
   position:absolute;
@@ -118,10 +119,17 @@ h1,p {
   opacity:0;
   transition: opacity 3s ease-in-out, transform 4s ease-in-out;
 }
-#cloud1 { left:20%; transform: scale(1.2);}
-#cloud2 { left:50%; transform: scale(1.5);}
-#cloud3 { left:80%; transform: scale(1.2);}
-
+#cloud1 { 
+  left:20%; 
+  transform: scale(1.2);
+#cloud2 { 
+  left:50%; 
+  transform: scale(1.5);
+#cloud3 { 
+  left:80%; 
+  transform: scale(1.2);
+}
+  
 #celestial-being{
   position:absolute;
   bottom:-20%;
@@ -130,5 +138,5 @@ h1,p {
   width:120px;
   opacity:0;
   filter:drop-shadow(0px 0px 10px white);
-  transition:opacity 3s ease-in-out, bottom 5s ease-in-out;
+  transition: opacity 3s ease-in-out, bottom 5s ease-in-out;
 }
