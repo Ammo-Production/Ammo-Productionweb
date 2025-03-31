@@ -122,9 +122,11 @@ h1,p {
 #cloud1 { 
   left:20%; 
   transform: scale(1.2);
+}
 #cloud2 { 
   left:50%; 
   transform: scale(1.5);
+}
 #cloud3 { 
   left:80%; 
   transform: scale(1.2);
@@ -140,3 +142,6 @@ h1,p {
   filter:drop-shadow(0px 0px 10px white);
   transition: opacity 3s ease-in-out, bottom 5s ease-in-out;
 }
+
+    
+  
