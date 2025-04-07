@@ -4,7 +4,7 @@ body {
   text-align: center;
   padding-top: 150px;
   font-family: 'Pirata One', cursive;
-  background-image: url('file:///Users/brentonduboise/Downloads/AmmoIMG.JPG');
+  background-image: url('../AmmoIMG.JPG');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
