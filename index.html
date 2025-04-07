@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>AMMO PRODUCTION</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
@@ -70,7 +70,25 @@
   for(let i=0; i<100; i++) {
     createStar();
   }
-  setInterval(createStar, 2000);   
+  window.onload=() => {
+    setTimeout(() => {
+      document.getElementById("cloud1").style.opacity="1";
+    },500);
+    setTimeout(()=> {
+      document.getElementById("cloud2").style.opacity="1";
+    },1500);
+    setTimeout(() => {
+      document.getElementById("cloud3").style.opacity="1";
+    }, 2500);
+
+    setTimeout(() => {
+      const celestial =document.getElementById("celestial-being");
+      celestial.style.opacity="1";
+      celestial.style.bottom="20%";
+    },4000);
+  };
+
+
 </script>
 </body>
 </html>
