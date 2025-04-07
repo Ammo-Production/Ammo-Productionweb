@@ -4,9 +4,13 @@ body {
   text-align: center;
   padding-top: 150px;
   font-family: 'Pirata One', cursive;
-  background-color: black;
+  background-image: url('AmmoIMG.JPG';
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
   overflow: hidden;
   position:relative;
+  color:white;
 }
 h1,p {
   opacity:0;
