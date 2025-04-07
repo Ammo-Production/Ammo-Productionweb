@@ -15,9 +15,9 @@ h1,p {
   margin-top:0;
   font-size:50px;
   letter-spacing:2px;
-  color:white
+  color:white;
   z-index:10;
-  position:relative
+  position:relative;
 }
 @keyframes fadeIn {
   from{
@@ -112,7 +112,7 @@ h1,p {
     opacity:0.5;
   }
 }
-.clouds{
+.cloud{
   position: absolute;
   width:150px;
   height: 80px;
