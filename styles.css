@@ -2,7 +2,7 @@
 body {
   margin:0;
   height: 100vh;
-  background:url('ammoimg.jpeg');
+  background:url('ammoimg.jpeg') no-repeat center center fixed;
   background-size:cover;
   overflow-x:hidden;
 }
