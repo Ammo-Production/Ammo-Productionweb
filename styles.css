@@ -6,9 +6,9 @@ body {
   background-size:cover;
   overflow-x:hidden;
 }
-@media(max-width: 1024px) {
+@media(max-width: 768px) {
   body{
-    background-size:contain;
+    background-size:cover;
   }
 }
 
