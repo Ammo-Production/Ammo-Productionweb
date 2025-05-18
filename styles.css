@@ -32,3 +32,33 @@ h1,p {
     opacity: 1;
   }
 }
+  .stars{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  background:transparent;
+  box-shadow:
+    50px 100px white,
+    120px 100px white,
+    200px 60px white,
+    300px 150px white,
+    400px 90px white,
+    500px 140px white,
+    600px 80px white,
+    700px 110px white,
+    800px 130px white,
+    900px 50px white;
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle{
+  from{
+    opacity:0.6;
+  }
+  to{
+    opacity:1;
+  }
+}
