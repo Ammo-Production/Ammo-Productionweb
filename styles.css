@@ -6,7 +6,11 @@ body {
   background-size:cover;
   overflow-x:hidden;
 }
-  
+@media(max-width: 768px) {
+  body{
+    background-size:contain;
+  }
+}
 
 
 h1,p {
