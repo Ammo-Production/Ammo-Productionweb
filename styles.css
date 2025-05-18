@@ -1,17 +1,14 @@
 /*style.css */
 body {
   margin:0;
-  text-align: center;
-  padding-top: 150px;
-  font-family: 'Pirata One', cursive;
-  background-image: url('../AmmoIMG.JPG');
+  height: 100vh;
+  background:url('ammoimg.jpeg);
   background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  overflow: hidden;
-  position:relative;
-  color:white;
+  overflow-x:hidden;
 }
+  
+
+
 h1,p {
   opacity:0;
   animation:fadeIn 3s ease-in forwards;
