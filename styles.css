@@ -133,7 +133,7 @@ h1,p {
     1150px 520px white,
     1250px 700px white,
     1480px 630px white;                                      
-  animation: twinkle 3s infinite alternate;
+  animation: twinkle 1s infinite alternate;
 }
 
 @keyframes twinkle{
