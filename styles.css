@@ -38,8 +38,8 @@ h1,p {
   position:fixed;
   top:0;
   left:0;
-  width:5px;
-  height:5px;
+  width:1.5px;
+  height:1.5px;
   pointer-events:none;
   background:transparent;
   z-index:5;
