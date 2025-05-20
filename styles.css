@@ -23,7 +23,7 @@ h1,p {
   font-size:50px;
   letter-spacing:2px;
   color:white;
-  z-index:26;
+  z-index:10;
   position:relative;
 }
 @keyframes fadeIn {
@@ -42,7 +42,7 @@ h1,p {
   height:1px;
   pointer-events:none;
   background:transparent;
-  z-index:10;
+  z-index:25;
   box-shadow:
     50px 100px 2px white,
     120px 100px 2px white,
