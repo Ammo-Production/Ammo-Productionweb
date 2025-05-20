@@ -38,22 +38,22 @@ h1,p {
   position:fixed;
   top:0;
   left:0;
-  width:100vw;
-  height:100vh;
+  width:100%;
+  height:100%;
   pointer-events:none;
   background:transparent;
   z-index:5;
   box-shadow:
-    50px 100px white,
-    120px 100px white,
-    200px 60px white,
-    300px 150px white,
-    400px 90px white,
-    500px 140px white,
-    600px 80px white,
-    700px 110px white,
-    800px 130px white,
-    900px 50px  white;
+    50px 100px 2px white,
+    120px 100px 2px white,
+    200px 60px 2px white,
+    300px 150px 2px white,
+    400px 90px 2px white,
+    500px 140px 2px white,
+    600px 80px 2px white,
+    700px 110px 2px white,
+    800px 130px 2px white,
+    900px 50px  2px white;
   animation: twinkle 2s infinite alternate;
 }
 
