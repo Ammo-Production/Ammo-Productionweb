@@ -38,29 +38,29 @@ h1,p {
   position:fixed;
   top:0;
   left:0;
-  width:1px;
-  height:1px;
+  width:100vw;
+  height:100vh;
   pointer-events:none;
   background:transparent;
-  z-index:25;
+  z-index:5;
   box-shadow:
-    50px 100px 2px white,
-    120px 100px 2px white,
-    200px 60px 2px white,
-    300px 150px 2px white,
-    400px 90px 2px white,
-    500px 140px 2px white,
-    600px 80px 2px white,
-    700px 110px 2px white,
-    800px 130px 2px white,
-    900px 50px 2px white;                                          
+    50px 100px 3px white,
+    120px 100px 3px white,
+    200px 60px 3px white,
+    300px 150px 3px white,
+    400px 90px 3px white,
+    500px 140px 3px white,
+    600px 80px 3px white,
+    700px 110px 3px white,
+    800px 130px 3px white,
+    900px 50px 3px white;                                          
    
   animation: twinkle 2s infinite alternate;
 }
 
 @keyframes twinkle{
   from{
-    opacity:0.6;
+    opacity:0.3;
   }
   to{
     opacity:1;
