@@ -23,7 +23,7 @@ h1,p {
   font-size:50px;
   letter-spacing:2px;
   color:white;
-  z-index:10;
+  z-index:26;
   position:relative;
 }
 @keyframes fadeIn {
