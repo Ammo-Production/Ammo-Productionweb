@@ -44,16 +44,16 @@ h1,p {
   background:transparent;
   z-index:5;
   box-shadow:
-    50px 100px 3px white,
-    120px 100px 3px white,
-    200px 60px 3px white,
-    300px 150px 3px white,
-    400px 90px 3px white,
-    500px 140px 3px white,
-    600px 80px 3px white,
-    700px 110px 3px white,
-    800px 130px 3px white,
-    900px 50px 3px white;                                          
+    50px 100px 3px 1px white,
+    120px 100px 3px 1px white,
+    200px 60px 3px 1px white,
+    300px 150px 3px 1px white,
+    400px 90px 3px 1px white,
+    500px 140px 3px 1px white,
+    600px 80px 3px 1px white,
+    700px 110px 3px 1px white,
+    800px 130px 3px 1px white,
+    900px 50px 3px 1px white;                                          
    
   animation: twinkle 2s infinite alternate;
 }
