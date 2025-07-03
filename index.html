@@ -15,15 +15,22 @@
         <li><a href="mens.html">Mens</a></li>
         <li><a href="women.html">Women</a></li>
         <li><a href="accessories.html">Accessories</a></li>
-      </ui>
+      </ul>
     </div>
 
-    <div class="menu-icon" oneclick="toggleSidebar()">
+    <div class="menu-icon" onclick="toggleSidebar()">
       <img src="NavBars.PNG" alt="AP Logo">
     </div>
 
     <div class="stars"></div>
     <h1>The Future Awaits </h1>
     <p>Ammo Productions</p>
-</body>
+
+    <script>
+      function toggleSidebar() {
+        const sidebar= document.getElementById("sidebar");
+        sidebar.classList.toggle("active");
+      }
+    </script>  
+  </body>
 </html>
