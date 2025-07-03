@@ -78,8 +78,8 @@ h1, p {
 }
 .menu-icon img {
   position:fixed;
-  top:20px;
-  left:20px;
+  top:5px;
+  left:5px;
   z-index:999;
   cursor:pointer;
   height:300px;
