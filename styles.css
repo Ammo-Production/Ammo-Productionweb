@@ -85,6 +85,9 @@ h1, p {
   height:150px;
   width: auto;
 }
+.menu-icon.hide{
+  display:none;
+}
 
 .stars {
   position: fixed;
