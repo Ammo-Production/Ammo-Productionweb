@@ -77,13 +77,13 @@ h1, p {
   cursor:pointer;
 }
 .menu-icon img {
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index:5;
-  cursor:pointer;
   height:150px;
   width: auto;
+}
+@media(max-width:768px){
+  .menu-icon img{
+    height:80px;
+  }
 }
 .menu-icon.hide{
   display:none;
