@@ -44,7 +44,7 @@ h1, p {
   width: 250px;
   background-color: rgba(0,0,0, 0.95);
   color:white;
-  z-index: 15;
+  z-index: 20;
   padding-top:60px;
   transition: left 0.3s ease;
 }
@@ -80,7 +80,7 @@ h1, p {
   position:fixed;
   top:0px;
   left:0px;
-  z-index:10;
+  z-index:5;
   cursor:pointer;
   height:150px;
   width: auto;
