@@ -74,16 +74,16 @@ h1, p {
   position:fixed;
   top:20px;
   left:20px;
-  z-index:10;
+  z-index:1000;
   cursor:pointer;
 }
 .menu-icon img {
-  height:120px;
+  height:100px;
   width: auto;
 }
 @media(max-width:480px){
   .menu-icon img{
-    height:50px;
+    height:60px;
   }
 }
 .menu-icon.hide{
