@@ -18,14 +18,16 @@ body {
 h1, p {
   opacity: 0;
   animation: fadeIn 3s ease-in forwards;
-  text-align: center;
+  text-align: left;
   margin-top: 0;
+  margin-right:20px;
   font-size: 50px;
   letter-spacing: 2px;
   color: white;
   z-index: 10;
   position: relative;
   margin-left:120px;
+  text-shadow:2px 2px 8px rgba(0,0,0,0.7);
 }
 
 @keyframes fadeIn {
