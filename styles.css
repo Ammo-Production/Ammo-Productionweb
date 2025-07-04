@@ -82,6 +82,9 @@ h1, p {
 .menu-icon img {
   height:300px;
   width: auto;
+  position:fixed;
+  top:0;
+  left:0;
 }
 @media(max-width:480px){
   .menu-icon img{
