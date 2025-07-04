@@ -25,6 +25,8 @@ h1, p {
   color: white;
   z-index: 10;
   position: relative;
+  transform: translateY(30px);
+  textshadow:2px 2px 8px rgba(0,0,0,0.7);
 }
 
 @keyframes fadeIn {
