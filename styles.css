@@ -78,7 +78,7 @@ h1, p {
   cursor:pointer;
 }
 .menu-icon img {
-  height:150px;
+  height:300px;
   width: auto;
 }
 @media(max-width:480px){
