@@ -27,9 +27,11 @@
     <p>Ammo Productions</p>
 
     <script>
-      function toggleSidebar() {
-        const sidebar= document.getElementById("sidebar");
-        sidebar.classList.toggle("active");
+   function toggleSidebar(){
+     const sidebar= document.getElementById("sidebar");
+     const menuIcon= document.querySelector(".menu-icon");
+     sidebar.classList.toggle("active");
+     menuIcon.classList.toggle("hide");
       }
     </script>  
   </body>
