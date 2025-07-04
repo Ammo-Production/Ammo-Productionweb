@@ -88,6 +88,23 @@ h1, p {
 .menu-icon.hide{
   display:none;
 }
+.close-btn{
+  position:absolute;
+  top:10px;
+  right:15px;
+  font-size:30px;
+  background:none;
+  border:none;
+  color:white;
+  cursor:pointer;
+  z-index:25;
+  padding:0;
+  line-height:1;
+  font-weight:bold;
+}
+.close-btn:hover{
+  color:#ccc;
+}
 
 .stars {
   position: fixed;
