@@ -222,3 +222,54 @@ h1, p {
     opacity: 1;
   }
 }
+/* Container for windows */
+.storefront {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;            /* space between windows */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Each window box */
+.window {
+  position: relative;
+  width: 30%;            /* 3 per row */
+  padding-bottom: 30%;   /* keep square ratio */
+  background-color: #222; /* placeholder dark color */
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.window:hover {
+  transform: scale(1.05);
+}
+
+/* Overlay text in each window */
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  pointer-events: none;  /* so clicks pass through */
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 768px) {
+  .window {
+    width: 45%;   /* 2 per row on tablets */
+    padding-bottom: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .window {
+    width: 90%;   /* 1 per row on phones */
+    padding-bottom: 90%;
+  }
+}
