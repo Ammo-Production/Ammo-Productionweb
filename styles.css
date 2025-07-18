@@ -15,6 +15,19 @@ body {
   z-index: 0;
 }
 
+.home-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home-logo img {
+  max-width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+
 h1, p {
   opacity: 0;
   animation: fadeIn 3s ease-in forwards;
