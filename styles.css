@@ -223,20 +223,18 @@ h1, p {
   }
 }
 /* Container for windows */
+/* Container for windows */
 .storefront {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;            /* space between windows */
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 per row on desktop */
+  gap: 20px;
   padding: 20px;
 }
 
 /* Each window box */
 .window {
-  position: relative;
-  width: 30%;            /* 3 per row */
-  padding-bottom: 30%;   /* keep square ratio */
-  background-color: #222; /* placeholder dark color */
+  aspect-ratio: 1 / 1;         /* keeps square shape */
+  background-color: #222;      /* placeholder dark color */
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -259,17 +257,16 @@ h1, p {
   pointer-events: none;  /* so clicks pass through */
 }
 
-/* Responsive tweaks for smaller screens */
+/* Responsive: 2 per row on tablets */
 @media (max-width: 768px) {
-  .window {
-    width: 45%;   /* 2 per row on tablets */
-    padding-bottom: 45%;
+  .storefront {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
+/* Responsive: 1 per row on phones */
 @media (max-width: 480px) {
-  .window {
-    width: 90%;   /* 1 per row on phones */
-    padding-bottom: 90%;
+  .storefront {
+    grid-template-columns: 1fr;
   }
 }
