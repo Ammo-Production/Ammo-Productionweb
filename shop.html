@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>SHOP ALL AP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <button class="close-btn" onclick="toggleSidebar()">×</button>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop All</a></li>
+        <li><a href="mens.html">Mens</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+      </ul>
+    </div>
+
+    <div class="menu-icon" onclick="toggleSidebar()" role="button" tabindex="0" aria-label="Open menu">
+      <img src="CropNav.PNG" alt="AP Logo">
+    </div>
+
+    <div class="stars"></div>
+
+   
+
+    <div class="storefront">
+      <div class="window"><div class="overlay">Item 1</div></div>
+      <div class="window"><div class="overlay">Item 2</div></div>
+      <div class="window"><div class="overlay">Item 3</div></div>
+      <div class="window"><div class="overlay">Item 4</div></div>
+      <div class="window"><div class="overlay">Item 5</div></div>
+      <div class="window"><div class="overlay">Item 6</div></div>
+      <div class="window"><div class="overlay">Item 7</div></div>
+      <div class="window"><div class="overlay">Item 8</div></div>
+      <div class="window"><div class="overlay">Item 9</div></div>
+    </div>
+
+    <script>
+      function toggleSidebar(){
+        const sidebar = document.getElementById("sidebar");
+        const menuIcon = document.querySelector(".menu-icon");
+        sidebar.classList.toggle("active");
+        menuIcon.classList.toggle("hide");
+      }
+    </script>
+  </body>
+</html>
