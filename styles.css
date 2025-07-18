@@ -234,8 +234,8 @@ h1, p {
 /* Each window box */
 .window {
   position: relative;
-  width: 10%;            /* 3 per row */
-  padding-bottom: 10%;   /* keep square ratio */
+  width: 15%;            /* 3 per row */
+  padding-bottom: 15%;   /* keep square ratio */
   background-color: #222; /* placeholder dark color */
   border-radius: 12px;
   overflow: hidden;
